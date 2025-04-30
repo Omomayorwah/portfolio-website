@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+  .image{
+    width: 40%;
+  }
+  .image img {
+    width: 100%;
+    margin: 1%;
+    border-radius: 5px;
+  }
+  .text{
+    width: 40%;
+    padding: 2%;
+    text-align: start;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #bio_image{
+    width: 35%;
+  }
+  #bio_image img {
+    width: 100%;
+    margin: 1%;
+    border-radius: 5px;
+  }
+  #bio_text{
+    width: 45%;
+    padding: 2%;
+    text-align: start;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+    .container h1 {
+        font-size: 1rem;
+        color:  #555;
+        font-weight: lighter;
+    }
+    .container h2 {
+        font-size: 1.8rem;
+        color: #333;
+    }
+    .container p {
+        font-size: 1rem;
+        color: #555;
+    }
+    #bio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #bio p{
+        width: 50%;
+    }
+    #socials img{
+        width: 5%;
+        margin: 0 1%;
+    }
+    #socials p{
+        font-size: 1rem;
+        margin-right: 1%;
+    }
+    .btn {
+        background-color: rgb(83, 196, 83);
+        color: white;
+        padding: 2%;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        margin: 0 1%;
+    }
+    #btn{
+        background-color: green;
+    }
+    .range{
+        width: 100%;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #ddd;
+        margin: 1% 0;
+        pointer-events: none;
+    }
+    input[type="range"] {
+        pointer-events: none;
+        width: 100%;
+        background: green;
+        height: 5x;
+    }
